@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics Portfolio</title>
+    <style>
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f7f7f7; 
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 70px;
+            margin-left: auto;
+            padding-right: 3%;
+            padding-top: 1.5%;
+        }
+
+        .nav-links li a {
+            font-size: 40px;
+            font-weight: 100;
+            color: black; 
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links li a:hover {
+            color: gray;
+        }
+
+        .text-container {
+            width: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            height: 100vh;
+        }
+
+        .text {
+            position: relative;
+            overflow: hidden;
+            white-space: nowrap;
+            font-size: 400px;
+            font-weight: 300;
+            color: black;
+            padding-bottom: 250px;
+        }
+
+        .scrollingttext {
+            display: inline-block;
+            animation: scroll-text 20s linear infinite;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        @keyframes scroll-text {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="breakdown.html">Breakdown</a></li>
+            <li><a href="">Portfolio</a></li>
+        </ul>
+    </div>
+
+    <div class="text-container">
+        <div class="text">
+            <div class="scrollingttext" id="scrollingText">
+                Crafting Coursework's Robot, Today
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

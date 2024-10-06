@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics Portfolio</title>
+    <style>
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f7f7f7; 
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 70px;
+            margin-left: auto;
+            padding-right: 3%;
+            padding-top: 1.5%;
+        }
+
+        .nav-links li a {
+            font-size: 40px;
+            font-weight: 100;
+            color: black; 
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links li a:hover {
+            color: gray;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .lab {
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 50px;
+        }
+
+        .section-title {
+            font-size: 25px;
+            font-weight: 300;
+            color: #999;
+            text-align: left;
+            margin-bottom: 50px;
+            padding-left: 7%;
+        }
+
+        .title-spacing {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .project {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding: 100px 0;
+        }
+
+        .project-title {
+            font-size: 100px;
+            color: #000;
+            padding-left: 7%;
+        }
+
+        .project-category {
+            font-size: 35px;
+            color: #666;
+            padding-right: 7%;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .about-me {
+                margin-top: 20px;
+            }
+
+            .header-text h1 {
+                font-size: 28px;
+            }
+
+            .project {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .project-title {
+                font-size: 36px;
+            }
+
+            .project-category {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="breakdown.html">Breakdown</a></li>
+            <li><a href="">Portfolio</a></li>
+        </ul>
+    </div>
+
+
+    <h1 style="padding-left:15%; font-size:180px; color:#000; font-weight: lighter; margin-top: 8%;">From concept to creation <br>Robotics Coursework</h1>
+    <div class="lab">
+        <div class="title-spacing">
+            <div class="section-title">RECENT WORK</div>
+        </div>
+
+        <div class="project" href="">
+            <div class="project-title">LED ON/OFF</div>
+            <div class="project-category">Software & Hardware</div>
+        </div>
+
+        <div class="project" href="">
+            <div class="project-title">Open CV</div>
+            <div class="project-category">Software</div>
+        </div>
+
+        <div class="project">
+            <div class="project-title">Lab 3</div>
+            <div class="project-category">-</div>
+        </div>
+    </div>
+</body>
+</html>
